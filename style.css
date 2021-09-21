@@ -1,0 +1,58 @@
+.header {
+    height: 80px;
+}
+
+.inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101010;
+    color: white;
+}
+
+.logo-container {
+    margin-left: auto;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 20px 60px; */
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 29px 20px;
+    text-decoration: none;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+    text-transform: none;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-wrapper {
+    width: 200px;
+    margin: 25px;
+}
+
+.contacts-wrapper {
+    width: 400px;
+    margin: 25px;
+}
